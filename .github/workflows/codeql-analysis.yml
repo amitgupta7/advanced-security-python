@@ -45,7 +45,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220224-05c2d67/codeql-bundle.tar.gz
+        tools: https://github.com/amitgupta7/demo-codeql-bundle/releases/download/codeql-bundle-20220311-82a393a/codeql-bundle.tar.gz
         debug: true
         #config-file: amitgupta7/codeql-runall-config/codeql-runall.yml@main
 
